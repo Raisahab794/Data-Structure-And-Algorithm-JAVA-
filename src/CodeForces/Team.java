@@ -1,3 +1,4 @@
+package CodeForces;
 import java.util.Scanner;
 public class Team {
     public static void main(String[] args) {
