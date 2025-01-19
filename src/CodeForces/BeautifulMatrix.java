@@ -1,7 +1,7 @@
 package CodeForces;
 
 import java.util.Scanner;
-public class BeautifulString {
+public class BeautifulMatrix {
     public static void main(String[] args) {
         Scanner sc=new Scanner(System.in);
         int[][]matrix=new int[5][5];
