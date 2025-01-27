@@ -18,7 +18,7 @@ public class Elephant {
             } else if (x >= 2) {
                 x -= 2;
                 count++;
-            } else if (x >= 1) {
+            } else {
                 x -= 1;
                 count++;
             }
