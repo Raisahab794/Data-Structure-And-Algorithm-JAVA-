@@ -7,7 +7,7 @@ public class Translation{
         String s2 = s.next();
         StringBuilder sb = new StringBuilder(s2);
         sb.reverse();
-        if(s1.equals(sb.toString())){
+        if(s1.contentEquals(sb)){
             System.out.println("YES");
         }else{
             System.out.println("NO");
