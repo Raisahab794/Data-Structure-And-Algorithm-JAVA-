@@ -5,12 +5,12 @@ public class UltraFastMathematician {
         Scanner sc = new Scanner(System.in);
         String s1 = sc.next();
         String s2 = sc.next();
-        String result = "";
+        StringBuilder result = new StringBuilder();
         for (int i = 0; i < s1.length(); i++) {
             if (s1.charAt(i) == s2.charAt(i)) {
-                result += "0";
+                result.append("0");
             } else {
-                result += "1";
+                result.append("1");
             }
         }
         System.out.println(result);
