@@ -10,7 +10,7 @@ public class Dragons {
             arr[i][0] = sc.nextInt();
             arr[i][1] = sc.nextInt();
         }
-        Arrays.sort(arr, (a, b) -> Integer.compare(a[0], b[0]));
+        Arrays.sort(arr, Comparator.comparingInt(a -> a[0]));
         boolean flag = true;
         for (int i = 0; i < n; i++) {
             if (s > arr[i][0]) {
