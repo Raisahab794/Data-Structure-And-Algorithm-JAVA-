@@ -13,11 +13,9 @@ public class SoftDrinking {
         int np = sc.nextInt();
         int totalDrink = k * l;
         int totalLime = c * d;
-        int totalSalt = p;
         int totalToast = totalDrink / nl;
-        int totalLimeToast = totalLime;
-        int totalSaltToast = totalSalt / np;
-        int min = Math.min(totalToast, Math.min(totalLimeToast, totalSaltToast));
+        int totalSaltToast = p / np;
+        int min = Math.min(totalToast, Math.min(totalLime, totalSaltToast));
         System.out.println(min / n);
     }
 }
