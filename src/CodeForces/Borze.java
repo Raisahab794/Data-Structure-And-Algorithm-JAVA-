@@ -17,6 +17,6 @@ public class Borze {
                 }
             }
         }
-        System.out.println(result.toString());
+        System.out.println(result);
     }
 }
