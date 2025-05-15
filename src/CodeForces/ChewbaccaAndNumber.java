@@ -18,6 +18,6 @@ public class ChewbaccaAndNumber {
                 result.append(digit);
             }
         }
-        System.out.println(result.toString());
+        System.out.println(result);
     }
 }
