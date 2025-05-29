@@ -6,7 +6,6 @@ public class ICPCBalloons {
            Scanner sc = new Scanner(System.in);
            int t = sc.nextInt(); // Number of test cases
            while (t-- > 0) {
-               int n = sc.nextInt(); // Length of the string
                String s = sc.next(); // Order of solved problems
                Set<Character> solvedProblems = new HashSet<>();
                int balloons = 0;
