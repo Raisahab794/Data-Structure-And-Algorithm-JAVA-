@@ -36,7 +36,7 @@ public class DoNotBeDistracted {
                         if (lastTask != '\0') {
                             seen.add(lastTask);
                         }
-                        lastTask = currentTask;
+
                     }
                 }
 
